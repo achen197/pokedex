@@ -7,7 +7,54 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.Poison {
+  background-color: #a800d2 !important;
+  color: white !important;
+  margin-right: 0.5rem !important;
 }
+
+.Grass {
+  background-color: #11af58 !important;
+  color: white !important;
+  margin-right: 0.5rem !important;
+}
+
+.Bug {
+  background-color: #057f3c !important;
+  color: white !important;
+  margin-right: 0.5rem !important;
+}
+
+.Flying {
+  margin-right: 0.5rem !important;
+}
+
+.Flying {
+  background-color: #bb8a00 !important;
+  color: white !important;
+  margin-right: 0.5rem !important;
+}
+
+.Electric {
+  background-color: #fbf302 !important;
+  margin-right: 0.5rem !important;
+}
+
+.Fire {
+  background-color: #f5a20c !important;
+  color: white !important;
+  margin-right: 0.5rem !important;
+}
+
+.Water {
+  background-color: #36ace4 !important;
+  color: white !important;
+  margin-right: 0.5rem !important;
+}
+
+.Ground {
+  background-color: #945a03 !important;
+  color: white !important;
+  margin-right: 0.5rem !important;
+}
+

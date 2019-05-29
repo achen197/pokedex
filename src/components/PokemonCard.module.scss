@@ -1,0 +1,30 @@
+.Container {
+    position: absolute;
+    left: 15vw;
+    width: 80vw;
+    margin: 2rem;
+  
+    .Card {
+      max-width: 345px;
+      padding: 1rem;
+  
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+  
+      p {
+        font-family: "Press Start 2P", cursive;
+        font-size: 0.85rem;
+        letter-spacing: 0.75px;
+      }
+    }
+  
+    .Media {
+      height: 140px;
+    }
+  }
+  
+  a {
+    text-decoration: none;
+  }

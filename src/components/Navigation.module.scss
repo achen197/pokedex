@@ -1,0 +1,62 @@
+.NavigationHeader {
+  color: #424242;
+  font-family: "Roboto Slab", serif;
+  min-width: 15vw;
+  display: flex;
+  flex-direction: column;
+
+  background: #56d7f3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    -160deg,
+    #1c57a9,
+    #56d7f3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    -160deg,
+    #1c57a9,
+    #56d7f3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  top: 0;
+  left: 0;
+  height: 100vw;
+  position: fixed;
+  padding: 3rem 0;
+
+  .Logo {
+    width: 185px;
+    margin: 0 auto;
+  }
+
+  nav {
+    ul {
+      padding: 0;
+      li {
+        svg {
+          color: white;
+          padding-right: 0.5rem;
+          display: none;
+        }
+
+        a {
+          color: white;
+          text-decoration: none;
+          list-style: none;
+          font-family: 'Press Start 2P', cursive;
+          font-size: 0.8rem;
+          letter-spacing: 0.75px;
+
+          height: 4rem;
+          display: flex;
+          align-items: center;
+          padding-left: 2rem;
+        }
+
+        a:hover:before {
+          content: ">";
+          transition: 0.25s ease-in-out;
+        }
+      }
+    }
+  }
+}
